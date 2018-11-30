@@ -109,7 +109,7 @@ stdin.addListener("data", function(d) {
     
     if(players.length > 1){
         console.log(`Player1 is ${players[0]} and computer ${players[1]}`);
-        console.log('Pick the place on board from 1 to 9');
+        console.log('Pick the place on board from 0 to 8');
         updateBoard(board, D, players[0])
         let isWinExist = false;
         isWinExist = isWin (board, players[0])
