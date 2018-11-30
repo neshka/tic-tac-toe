@@ -113,7 +113,6 @@ stdin.addListener("data", function(d) {
         updateBoard(board, D, players[0])
         let isWinExist = false;
         isWinExist = isWin (board, players[0])
-        console.log(isWinExist);
         if (isWinExist) {
             console.log(`The winner is ${players[0]}`)
         }
